@@ -17,8 +17,8 @@ Vera is a Discord bot for NOVA verification. She posts a verification panel, cre
 - After staff choose an age, Vera posts staff-only group buttons:
   - **PVP**
   - **N0VA**
-  - **Guest Pass**
-- Gives the selected PVP, N0VA, or guest pass role, gives the selected under/over 18 role, and removes the waiting room role.
+  - **Friendzone**
+- Gives the selected PVP, N0VA, or Friendzone role, gives the selected under/over 18 role, and removes the waiting room role.
 - Leaves rejected members in the waiting room role.
 - States which staff member verified or rejected the applicant.
 - Sends verified members to the roles channel to select their roles.
@@ -51,7 +51,7 @@ Vera is a Discord bot for NOVA verification. She posts a verification panel, cre
    - Mention Everyone
    - Use Slash Commands
    - Read Message History
-5. Make sure Vera's highest role is above the waiting room, PVP, N0VA, guest pass, under 18, and over 18 roles.
+5. Make sure Vera's highest role is above the waiting room, PVP, N0VA, Friendzone, under 18, and over 18 roles.
 6. In the verification channel, make sure Vera can create private threads.
 7. In the swamp logs channel, make sure Vera can view the channel, send messages, attach files, and embed links.
 
@@ -69,7 +69,6 @@ GUILD_ID=replace_with_your_server_id
 WAITING_ROOM_ROLE_ID=replace_with_waiting_room_role_id
 PVP_ROLE_ID=replace_with_pvp_role_id
 NOVA_ROLE_ID=replace_with_n0va_role_id
-GUEST_PASS_ROLE_ID=replace_with_guest_pass_role_id
 UNDER_18_ROLE_ID=replace_with_under_18_role_id
 OVER_18_ROLE_ID=replace_with_over_18_role_id
 ADMIN_ROLE_ID=replace_with_admin_team_role_id
